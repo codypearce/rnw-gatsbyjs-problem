@@ -1,0 +1,40 @@
+html {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: "Helvetica", sans-serif;
+  font-size: 16px;
+  transition: background 0.3s ease;
+  height: 100%;
+}
+body > div,
+body > div > div {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Helvetica", sans-serif;
+}
+
+pre {
+  margin: 10px 0px;
+}
+
+p {
+  line-height: 1.6;
+  font-family: sans-serif;
+  line-height: 30px;
+}
+
+img {
+  max-width: 100%;
+}
+
+blockquote p {
+  font-style: italic;
+}
